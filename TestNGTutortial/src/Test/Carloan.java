@@ -26,6 +26,7 @@ public class Carloan {
 	public void inquirt2()
 	{
 		System.out.println(" Car Go to help 2");
+		System.out.println("********");
 		Assert.fail();
 	}
 	@Test(dataProvider="getdata")
