@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="84" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Carloan.interestrate()[pri:0, instance:Test.Carloan@4f933fd1]" name="interestrate" class="Test.Carloan"/>
+        <method signature="HomeLoan.Homeinterestrate()[pri:0, instance:Test.HomeLoan@548a9f61]" name="Homeinterestrate" class="Test.HomeLoan"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Regression" duration-ms="84" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+      <class name="Test.Carloan">
+        <test-method status="PASS" signature="inquirt1()[pri:0, instance:Test.Carloan@4f933fd1]" name="inquirt1" duration-ms="2" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inquirt1 -->
+        <test-method status="PASS" signature="inquirt2()[pri:0, instance:Test.Carloan@4f933fd1]" name="inquirt2" duration-ms="2" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inquirt2 -->
+        <test-method status="PASS" signature="inquirt3(java.lang.String, java.lang.String)[pri:0, instance:Test.Carloan@4f933fd1]" name="inquirt3" duration-ms="2" started-at="2019-09-08T06:07:29Z" data-provider="getdata" finished-at="2019-09-08T06:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inquirt3 -->
+        <test-method status="PASS" signature="inquirt3(java.lang.String, java.lang.String)[pri:0, instance:Test.Carloan@4f933fd1]" name="inquirt3" duration-ms="3" started-at="2019-09-08T06:07:29Z" data-provider="getdata" finished-at="2019-09-08T06:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inquirt3 -->
+        <test-method status="PASS" signature="inquirt3(java.lang.String, java.lang.String)[pri:0, instance:Test.Carloan@4f933fd1]" name="inquirt3" duration-ms="2" started-at="2019-09-08T06:07:29Z" data-provider="getdata" finished-at="2019-09-08T06:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uname3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inquirt3 -->
+        <test-method status="PASS" signature="interestrate()[pri:0, instance:Test.Carloan@4f933fd1]" name="interestrate" duration-ms="2" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestrate -->
+      </class> <!-- Test.Carloan -->
+      <class name="Test.HomeLoan">
+        <test-method status="PASS" signature="Homeinterestrate()[pri:0, instance:Test.HomeLoan@548a9f61]" name="Homeinterestrate" duration-ms="1" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homeinterestrate -->
+        <test-method status="PASS" signature="personalloaninquiry(java.lang.String, java.lang.String)[pri:0, instance:Test.HomeLoan@548a9f61]" name="personalloaninquiry" duration-ms="2" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[neketa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalloaninquiry -->
+      </class> <!-- Test.HomeLoan -->
+      <class name="Test.PersonalLoan">
+        <test-method status="PASS" signature="beforesuites()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="beforesuites" is-config="true" duration-ms="12" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuites -->
+        <test-method status="PASS" signature="personalloaninquiry()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="personalloaninquiry" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalloaninquiry -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="interestrate()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="interestrate" duration-ms="6" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestrate -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="aftermethod" is-config="true" duration-ms="1" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="interestrate1()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="interestrate1" duration-ms="3" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestrate1 -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="interestrate2()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="interestrate2" duration-ms="2" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interestrate2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="firsttime()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="firsttime" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttime -->
+        <test-method status="PASS" signature="aftersuites()[pri:0, instance:Test.PersonalLoan@d2cc05a]" name="aftersuites" is-config="true" duration-ms="0" started-at="2019-09-08T06:07:29Z" finished-at="2019-09-08T06:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuites -->
+      </class> <!-- Test.PersonalLoan -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

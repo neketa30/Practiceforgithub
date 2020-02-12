@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name ="Test.Listenertut"/>
+</listeners>
+<!-- <parameter name="URL" value ="www.facebook.com"/>
+<parameter name="Uname" value ="neketa"/>
+  <test thread-count="5" name="Regression"> -->
+<!--   <groups>
+  <run>
+  <include name="smoke"></include>
+  </run>
+  </groups> -->
+    <classes>
+    <!--   <class name="Test.PersonalLoan"/> -->
+      <class name="Test.Carloan2"/>
+   <!--    <class name="Test.HomeLoan"/> -->
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
