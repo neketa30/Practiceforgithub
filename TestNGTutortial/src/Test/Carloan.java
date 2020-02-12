@@ -34,6 +34,7 @@ public class Carloan {
 		System.out.println(" Car Go to help 3");
 		System.out.println(username);
 		System.out.println(password);
+		System.out.println("*********");
 	}
 	@DataProvider
 	public Object[][] getdata()
